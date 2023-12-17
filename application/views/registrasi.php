@@ -1,4 +1,4 @@
-<body class="bg-gradient-primary">
+<body class="bg-gradient" style="background-color: #90EE90">
 
   <div class="container">
 
@@ -29,7 +29,7 @@
                     <input type="password" class="form-control form-control-user" placeholder="Ulangi Password" name="password_2">
                   </div>
                 </div>
-                <button type="submit" class="btn btn-primary btn-user btn-block">Daftar</button>
+                <button type="submit" class="btn btn-user btn-block" style="background-color: #90EE90">Daftar</button>
               </form>
               <hr>
               <div class="text-center">
