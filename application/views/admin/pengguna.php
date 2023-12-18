@@ -17,10 +17,10 @@
         <td><?php echo $pgn->username ?></td>
         <td><?php echo $pgn->password ?></td>
         <td>
-          <?php echo anchor('admin/data_barang/edit/' . $pgn->id, '<div class="btn btn-primary btn-sm"><i class="fas fa-edit"></i></div>') ?>
+          <?php echo anchor('admin/pengguna/edit/' . $pgn->id, '<div class="btn btn-primary btn-sm"><i class="fas fa-edit"></i></div>') ?>
         </td>
         <td>
-          <?php echo anchor('admin/data_barang/hapus/' . $pgn->id, '<div class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></div>') ?>
+          <?php echo anchor('admin/pengguna/hapus/' . $pgn->id, '<div class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></div>') ?>
         </td>
       </tr>
     <?php endforeach; ?>
